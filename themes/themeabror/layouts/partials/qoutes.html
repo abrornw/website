@@ -1,0 +1,37 @@
+{{ if gt (len .Site.Data.qoutes) 0 }}
+
+<div style="padding-bottom: 23px;padding-top: 23px">
+        <div class="container " >
+          
+              <div class="quote" ><i class="fa fa-quote-left fa-4x"></i></div>
+            <div class="homepage owl-carousel">
+           
+                {{ range sort .Site.Data.qoutes "no" }}
+                <div class="item">
+                    <div class="row">
+                    
+                        <div class="col-sm  text-center">
+
+                            {{ .qoute | safeHTML }}
+                            
+                             
+                            </div>
+                        </div>
+                      <div class="row">
+                        <div class ="col-sm text-center">
+                               <img class="rounded-circle " src="{{ .foto }}" alt="Tuan Guru" style="width:128px;height: 128px;">
+                               </div>
+                      </div>
+
+                    </div>
+                    {{ end }}
+                </div>
+                
+            </div>
+            <!-- /.project owl-slider -->
+        </div>
+
+    
+
+
+{{ end }}

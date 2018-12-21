@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body style="background-color: #f1f4fa">
+
+        {{ partial "nav.html" . }}
+        
+
+        <div class="container mb-5">
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-12 mb-5 ">
+                    <article>
+                        <div class="">
+                        
+                      
+                                <div class="post-content">
+                                    {{ .Content }}
+                                </div>
+                                <div class="post-footer">
+                                    {{ partial "disqus.html" . }}
+                                </div>
+                            
+                        </div>
+                    </article>
+                    </div>
+
+                 
+            </div>
+        </div>
+
+        {{ partial "footer.html" . }}
+        {{ partial "js-init.html" . }}
+    </body>
+</html>

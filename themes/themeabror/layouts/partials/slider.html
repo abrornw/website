@@ -1,0 +1,33 @@
+
+{{ if gt (len .Site.Data.slider) 0 }}
+<header>
+       <div class="jumbotron jumbotron-fluid bg-success text-white bg-abror2 no-padding mb-0 ">
+    <div class="home-carousel pd-10" >
+
+        <div class="container">
+            <div class="homepage owl-carousel" style="padding-top:5px;padding-bottom: 5px; ">
+                {{ range sort .Site.Data.slider "no" }}
+                <div class="item ">
+                    <div class="row justify-content-center">
+                         <div class="col-sm-2">
+                                                    </div>
+                        <div class="col-sm-4 text-center  " style="padding-top: 25px;">
+                            <h1 text-center>{{ .title }}</h1>
+                            {{ .description | safeHTML }}
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="img-fluid text-center " src="{{ .image }}" alt="Responsive image">
+                        </div>
+                               <div class="col-sm-2">
+                                                    </div>
+
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <!-- /.project owl-slider -->
+        </div>
+    </div>
+</div>
+</header>
+{{ end }}

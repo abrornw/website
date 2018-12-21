@@ -1,0 +1,30 @@
+<title>{{ .Title }}</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/google_news.html" . }}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+
+<!-- Icon -->
+<link rel="icon" href="/img/logo.svg" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/bootstrap.css" />
+<link rel="stylesheet" href="/css/mystyle.css" />
+
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="/css/owl.carousel.css" />
+<link rel="stylesheet" href="/css/owl.theme.css" />
+<link rel="stylesheet" href="/css/animate.css"/>
+ <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+
+
+
+
+
+
+<!-- Taru kode Google Analytic di sini, karena menurut aturan harus di dalam Head -->
+{{ template "_internal/google_analytics.html" . }}
