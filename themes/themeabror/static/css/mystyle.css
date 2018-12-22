@@ -367,7 +367,14 @@ Counter box
 
 
 .gradasi {
- background: linear-gradient(-86deg, #1fd0ab, #0d8279, #29bd9b, #219691);
+ 
+
+/* background: linear-gradient(-86deg, #1fd0ab, #0d8279, #29bd9b, #219691);
+*/
+
+/* background: -webkit-linear-gradient(to right, #11998e, #38ef7d); */
+
+ background: linear-gradient(to right, #0d8279, #29bd9b, #1fd0ab ,#219691);
   background-size: 400% 400%;
   -webkit-animation: Gradient 30s ease infinite;
   -moz-animation: Gradient 30s ease infinite;
@@ -477,7 +484,7 @@ section {
 
 .home-carousel {
     position: relative;
-    background: url(../img/murid3.png) center center repeat;
+    background: url(../img/murid3min.jpg) center center repeat;
     background-size: cover;
   }
 
@@ -551,10 +558,7 @@ section {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* mouse grab icon */
-.grabbing {
-    cursor:url(/img/grabbing.png) 8 8, move;
-}
+
 
 /* fix */
 .owl-carousel  .owl-wrapper,
@@ -627,8 +631,3 @@ section {
   border-radius: 30px;
 }
 
-/* preloading images */
-.owl-item.loading{
-  min-height: 150px;
-  background: url(AjaxLoader.gif) no-repeat center center
-}
