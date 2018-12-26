@@ -86,3 +86,6 @@ blog = "/:slug/"
 [Permalinks]
     blog = "/blog/:filename"
     news = "/berita/:filename"
+    
+# Redirect default Netlify subdomain to primary domain
+http://darulabror.netlify.com/* http://www.darulabrornw.com/:splat 301!
