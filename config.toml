@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://www.darulabrornw.com/"
 languageCode = "en-us"
 title = "Darul Abror"
 
@@ -9,7 +9,7 @@ theme = "themeabror"
 
 # Disqus shortcode
 # Disable comments for any individual post by adding "comments: false" in its frontmatter
-disqusShortname = "lombokfoss"
+disqusShortname = "abror."
 
 
 
