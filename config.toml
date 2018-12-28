@@ -9,7 +9,7 @@ theme = "themeabror"
 
 # Disqus shortcode
 # Disable comments for any individual post by adding "comments: false" in its frontmatter
-disqusShortname = "abror."
+disqusShortname = "abror"
 
 
 
