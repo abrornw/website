@@ -1,22 +1,16 @@
-<div style="background-color: #f8f9fa;padding-bottom: 32px;padding-top: 32px">
+<div style="background-color: #f5f5f5;padding-bottom: 32px;padding-top: 32px">
 <article class="card-post ">
 
-    <div class="container ">
-        <div class="row justify-content-center">
-               <!--  <div class="col-12 text-left py-3">
-                       <h2  class ="text-left ">Blogs Abror</h2>
-                       <div class="garis"></div>
-
-
-                                  </div> -->
+    <div class="container " >
+        <div class="row justify-content-center" >
             {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") 3 }}
             {{ range $paginator.Pages }}
                 <div class="col-md-4  my-3 d-flex ">
-                    <div class="card">
-                        <a href="{{ .RelPermalink }}">
+                    <div class="card wow fadeInUp animated slow " data-wow-delay="0.4s">
+                        <a href="{{ .RelPermalink }}" style="overflow: hidden;" >
                         <img class='card-img-top' 
                             src='{{ if eq .Params.thumbnail "" }}http://lorempixel.com/320/160{{else}}{{ .Params.thumbnail }}{{end}}'
-                            alt='{{ .Title }}'>
+                            alt='{{ .Title }}' >
                         </a>
 
                      
