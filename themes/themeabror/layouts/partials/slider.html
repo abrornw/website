@@ -5,21 +5,19 @@
     <div class="home-carousel pd-10" >
 
         <div class="container">
-            <div class="homepage owl-carousel" style="padding-top:5px;padding-bottom: 5px; ">
-                {{ range sort .Site.Data.slider "no" }}
-                <div class="item ">
+            <div class="homepage owl-carousel" >
+                {{ range sort .Site.Data.slider "weight" }}
+                <div class="item">
                     <div class="row justify-content-center">
-                         <div class="col-sm-2">
-                                                    </div>
-                        <div class="col-sm-4 text-center  " style="padding-top: 25px;">
-                            <h1 text-center>{{ .title }}</h1>
+                         
+                        <div class="col-sm-4 text-center wow fadeInRightBig animated slow" data-wow-delay="0.2" style="padding-top: 25px;">
+                            <h1  >{{ .title }}</h1>
                             {{ .description | safeHTML }}
                         </div>
-                        <div class="col-sm-4">
-                            <img class="img-fluid text-center " src="{{ .image }}" alt="Responsive image">
+                        <div class="col-sm-4 text-center slideInDown animated slow" data-wow-delay="0.3s" >
+                            <img class="img-fluid text-center " src="{{ .image }}" alt="Gambar Slide">
                         </div>
-                               <div class="col-sm-2">
-                                                    </div>
+                               
 
                     </div>
                 </div>
