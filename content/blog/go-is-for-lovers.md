@@ -1,6 +1,6 @@
 +++
 title = "Go is for lovers"
-date = "2015-09-17T13:47:08+02:00"
+date = "2018-09-17T13:47:08+02:00"
 topik = ["go"]
 kategori = ["programming"]
 thumbnail = "gambar/4.jpg"
