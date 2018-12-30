@@ -1,6 +1,6 @@
 +++
 title = "Linked post"
-date = "2015-10-02T21:49:20+02:00"
+date = "2018-10-02T21:49:20+02:00"
 topik = ["golang", "programming", "theme", "hugo"]
 kategory = ["programming"]
 thumbnail = "gambar/2.jpg"
