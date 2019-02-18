@@ -2,25 +2,25 @@
 {{ if gt (len .Site.Data.gurubesar) 0 }}
 
 	
-
+  <div class="guru">
 		  <div class="container text-center bg-SSS ">
   			<div class="row justify-content-center">
   				<div class="col-12 mb-3">
               <h2 class="heading text-center" >Guru Kami</h2>
-						<!-- <div class="garis"></div>
- -->  	  			</div>
-  						{{ range sort .Site.Data.gurubesar "weight" }}
+				
+  	  			</div>
+  				     {{ range sort .Site.Data.guru "no" }}
   				<div class="col-4 col-sm-4 col-xs-6 col-lg-2">
   						
     				<div class="rounded-circle" >
       				
         				<img class="rounded-circle img-fluid " src="{{ .foto }}" alt="Lights" style="width:90%;">
-        				<div class="huruf">
-          				<p class="text-center" style="font-size: 14px" >{{ .nama}}</p>
-          				</div>
+        				<p class="huruf text-center"  >{{ .nama}}</p>
+          		
         				
       				</div>
       			 </div>	
+                <div class="garis"></div>
       			      			{{ end }}
 
       			      			
@@ -28,7 +28,7 @@
       			
     		</div>
     	  </div>
-
+</div>
     
 
 
