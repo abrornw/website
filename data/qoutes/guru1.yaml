@@ -1,4 +1,4 @@
-no: 1
+weight: 1
 nama: "TGH Daman Huri"
 foto: "{{.Site.BaseURL}}img/gurubesar/1.jpg"
 qoute :     <blockquote>
