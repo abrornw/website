@@ -1,8 +1,8 @@
 ---
 draft: flase
 date: 2019-05-12T07:06:11+07:00
-title: "Puasa Seperti Ulat"
-slug: puasa-seperti-ulat
+title: "Berpuasa Seperti Ulat"
+slug: Berpuasa-seperti-ulat
 
 topik:
     - Puasa
@@ -15,6 +15,7 @@ image: gambar/sepertiulat.jpg
 thumbnail: gambar/sepertiulat.jpg
 ---
 <img class="img-fluid" src="https://www.darulabrornw.com/gambar/sepertiulat.jpg">
+
 Pelajaran berharga,, Subhanallah,,,
 
 Berpuasalah seperti ULAT 
