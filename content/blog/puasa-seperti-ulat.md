@@ -14,7 +14,7 @@ kategori:
 image: gambar/sepertiulat.jpg
 thumbnail: gambar/sepertiulat.jpg
 ---
-
+<img src="https://www.darulabrornw.com/gambar/sepertiulat.jpg">
 Pelajaran berharga,, Subhanallah,,,
 
 Berpuasalah seperti ULAT 
