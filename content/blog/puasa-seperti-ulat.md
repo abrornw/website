@@ -41,7 +41,7 @@ Puasa yang benar-benar dipersiapkan untuk mengubah kualitas hidupnya. Karenanya 
 
 Setelah berminggu-minggu puasa, maka keluarlah dari kokon seekor makhluk baru yang sangat indah bernama KUPU-KUPU.
 
-#Ibroh dari puasanya ulat :
+##Ibroh dari puasanya ulat :
 
 1. WAJAH ulat sesudah puasa berubah INDAH MEMPESONA
 2. NAMA ulat sesudah puasa berubah menjadi KUPU-KUPU
@@ -49,7 +49,7 @@ Setelah berminggu-minggu puasa, maka keluarlah dari kokon seekor makhluk baru ya
 4. CARA BERGERAK ketika masih jadi ulat menjalar, setelah puasa berubah TERBANG di awang-awang.
 5. TABIAT dan SIFAT berubah total. Ketika masih jadi ulat menjadi perusak alam pemakan daun. Begitu menjadi kupu-kupu menghidupkan dan membantu kelangsungan kehidupan tumbuhan dengan cara membantu PENYERBUKAN BUNGA.
 
-#KESIMPULAN
+##KESIMPULAN
 
 Hakikat puasa bukanlah hanya menahan lapar dan haus saja, namun kita jg harus menahan dan meninggalkan kebiasaan-kebiasaan yg tidak baik, sehingga kedepan kita bisa menjadi lebih baik lagi dari pada hari ini.
 Puasa seharusnya mampu menghijrahkan diri kita agar semakin taqwa dan mampu menjadi "khairunnas anfa'uhum linnas" (sebaik-baik manusia ialah yang dapat memberikan manfaat bagi manusia lainnya).
