@@ -1,8 +1,8 @@
 ---
 draft: flase
 date: 2019-05-12T07:06:11+07:00
-title: "Berpuasa Seperti Ulat"
-slug: Berpuasa-seperti-ulat
+title: "Berpuasalah Seperti Ulat"
+slug: Berpuasalah-seperti-ulat
 
 topik:
     - Puasa
