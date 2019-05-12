@@ -41,7 +41,7 @@ Puasa yang benar-benar dipersiapkan untuk mengubah kualitas hidupnya. Karenanya 
 
 Setelah berminggu-minggu puasa, maka keluarlah dari kokon seekor makhluk baru yang sangat indah bernama KUPU-KUPU.
 
-## Ibroh dari puasanya ulat :
+## Ibaroh Dari Puasanya ulat :
 
 1. WAJAH ulat sesudah puasa berubah INDAH MEMPESONA
 2. NAMA ulat sesudah puasa berubah menjadi KUPU-KUPU
